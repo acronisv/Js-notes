@@ -15,7 +15,7 @@
     for (начало; условие; шаг) {
     // ... тело цикла ...
     }
-
+```
 ## Массивы
 ``` bash
 array.push(...items) – добавляет элементы в конец
@@ -31,7 +31,6 @@ array.forEach - позволяет запускать функцию для ка
     arr.forEach(function(item, index, array) {
     // ... делать что-то с item
     });
-
 array.indexOf(item, from) – ищет item, начиная с индекса from, и возвращает индекс, на котором был найден искомый элемент, в противном случае -1
 array.lastIndexOf(item, from) – то же самое, но ищет справа налево
 array.includes(item, from) – ищет item, начиная с индекса from, и возвращает true, если поиск успешен
@@ -48,3 +47,4 @@ array.split(delim) - разбивает строку на массив по за
 array.join(glue) делает в точности противоположное split. Он создаёт строку из элементов array, вставляя glue между ними.
 array.reduce - перебирем массив
 Array.isArray(array) - работает как typeof
+```
