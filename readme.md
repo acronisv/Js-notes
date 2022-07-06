@@ -1,5 +1,5 @@
-ЦИКЛЫ
-
+## ЦИКЛЫ
+``` bash
 Цикл «while»
     while (condition) {
     // код
